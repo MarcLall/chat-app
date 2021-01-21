@@ -1,5 +1,6 @@
 import React from 'react'
 import './Contact.css'
+import PropTypes from 'prop-types';
 
 function Contact (props) {
     return (
@@ -19,3 +20,9 @@ function Contact (props) {
 }
 
 export default Contact
+
+QuoteCard.propTypes = {
+    name: PropTypes.string.isRequired,
+    avatar: PropTypes.string.isRequired,
+    online: PropTypes.bool.isRequired
+  };
