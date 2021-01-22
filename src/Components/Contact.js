@@ -21,7 +21,7 @@ function Contact (props) {
 
 export default Contact
 
-QuoteCard.propTypes = {
+Contact.propTypes = {
     name: PropTypes.string.isRequired,
     avatar: PropTypes.string.isRequired,
     online: PropTypes.bool.isRequired
